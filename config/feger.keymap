@@ -68,10 +68,10 @@
 
         nav {
             bindings = <
-&kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &bootloader   &bt BT_SEL 0  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none           &kp LEFT_BRACE  &kp RIGHT_BRACE
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &bt BT_SEL 1  &none           &kp LGUI         &kp LEFT_SHIFT  &kp LEFT_ALT    &kp LCTRL
-&kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none         &bt BT_SEL 2  &kp UP_ARROW    &kp LEFT_ARROW   &none           &kp LESS_THAN   &kp GREATER_THAN
-                                          &bt BT_CLR    &none         &none           &out OUT_TOG
+&kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none         &none  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none           &kp LEFT_BRACE  &kp RIGHT_BRACE
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &none  &none           &kp LGUI         &kp LEFT_SHIFT  &kp LEFT_ALT    &kp LCTRL
+&kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none         &none  &kp UP_ARROW    &kp LEFT_ARROW   &none           &kp LESS_THAN   &kp GREATER_THAN
+                                          &bt BT_CLR    &none  &none           &out OUT_TOG
             >;
         };
 
@@ -122,10 +122,10 @@
 
         function_keys {
             bindings = <
-&kp F4  &kp F5  &kp F6  &none    &none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&kp F1  &kp F2  &kp F3  &kp F10  &none    &none         &bt BT_CLR    &bt BT_NXT    &none         &none
-&kp F7  &kp F8  &kp F9  &none    &none    &none         &none         &none         &none         &none
-                        &kp F11  &kp F12  &none         &none
+&kp F4  &kp F5  &kp F6  &none    &bootloader  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&kp F1  &kp F2  &kp F3  &kp F10  &none        &none         &bt BT_CLR    &bt BT_NXT    &out OUT_BLE  &out OUT_USB
+&kp F7  &kp F8  &kp F9  &none    &none        &none         &none         &none         &none         &none
+                        &kp F11  &kp F12      &none         &none
             >;
         };
 
