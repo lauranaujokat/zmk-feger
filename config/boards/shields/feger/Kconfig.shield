@@ -1,0 +1,8 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_FEGER_LEFT
+    def_bool $(shields_list_contains,feger_left)
+
+config SHIELD_FEGER_RIGHT
+    def_bool $(shields_list_contains,feger_right)

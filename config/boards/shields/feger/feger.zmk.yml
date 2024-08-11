@@ -1,0 +1,13 @@
+file_format: "1"
+id: feger
+name: Feger
+type: shield
+url: https://github.com/lauranaujokat/zmk-feger
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - feger_left
+  - feger_right
