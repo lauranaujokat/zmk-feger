@@ -22,3 +22,5 @@ include:
     shield: feger_left
   - board: nice_nano_v2
     shield: feger_right
+  - board: nice_nano_v2
+    shield: settings_reset
