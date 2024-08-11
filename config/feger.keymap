@@ -67,19 +67,19 @@
 
         nav {
             bindings = <
-&kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none         &none  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none           &kp LEFT_BRACE  &kp RIGHT_BRACE
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &none  &none           &kp LGUI         &kp LEFT_SHIFT  &kp LEFT_ALT    &kp LCTRL
-&kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none         &none  &kp UP_ARROW    &kp LEFT_ARROW   &none           &kp LESS_THAN   &kp GREATER_THAN
-                                          &none         &none  &none           &none
+&kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &bootloader   &bt BT_SEL 0  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none           &kp LEFT_BRACE  &kp RIGHT_BRACE
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &bt BT_SEL 1  &none           &kp LGUI         &kp LEFT_SHIFT  &kp LEFT_ALT    &kp LCTRL
+&kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none         &bt BT_SEL 2  &kp UP_ARROW    &kp LEFT_ARROW   &none           &kp LESS_THAN   &kp GREATER_THAN
+                                          &bt BT_CLR    &none         &none           &none
             >;
         };
 
         symbols {
             bindings = <
-&none            &none   &none             &kp LEFT_PARENTHESIS  &none          &none      &kp RIGHT_PARENTHESIS  &none              &none      &none
-&kp EXCLAMATION  &kp AT  &mt LSHFT HASH    &kp PERCENT           &kp AMPERSAND  &kp CARET  &kp DOLLAR             &mt LSHFT STAR     &kp MINUS  &kp PLUS
-&kp BACKSLASH    &none   &kp LEFT_BRACKET  &kp LEFT_BRACE        &kp GRAVE      &kp TILDE  &kp RIGHT_BRACE        &kp RIGHT_BRACKET  &none      &kp EQUAL
-                                           &kp SINGLE_QUOTE      &kp SEMICOLON  &none      &none
+&none            &none   &none             &kp LEFT_PARENTHESIS  &none          &bootloader  &kp RIGHT_PARENTHESIS  &none              &none      &none
+&kp EXCLAMATION  &kp AT  &mt LSHFT HASH    &kp PERCENT           &kp AMPERSAND  &kp CARET    &kp DOLLAR             &mt LSHFT STAR     &kp MINUS  &kp PLUS
+&kp BACKSLASH    &none   &kp LEFT_BRACKET  &kp LEFT_BRACE        &kp GRAVE      &kp TILDE    &kp RIGHT_BRACE        &kp RIGHT_BRACKET  &none      &kp EQUAL
+                                           &kp SINGLE_QUOTE      &kp SEMICOLON  &none        &none
             >;
         };
 
