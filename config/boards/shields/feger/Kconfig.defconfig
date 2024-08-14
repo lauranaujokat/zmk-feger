@@ -1,14 +1,13 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_FEGER_LEFT
+if SHIELD_FEGER_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "Feger"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
-
 endif
 
 if SHIELD_FEGER_LEFT || SHIELD_FEGER_RIGHT
