@@ -60,7 +60,7 @@
 
         default_layer {
             bindings = <
-&kp DE_Q        &kp DE_W       &kp DE_F         &kp DE_P       &kp DE_B        &kp DE_J     &kp DE_L       &kp DE_U         &kp DE_Y       &kp DE_DOUBLE_QUOTES
+&kp DE_Q        &kp DE_W       &kp DE_F         &kp DE_P       &kp DE_B        &kp DE_J     &kp DE_L       &kp DE_U         &kp DE_Y       &kp DE_QUESTION
 &mt LCTRL DE_A  &mt LALT DE_R  &mt LSHIFT DE_S  &mt LGUI DE_T  &kp DE_G        &kp DE_M     &mt LGUI DE_N  &mt RSHIFT DE_E  &mt LALT DE_I  &mt LCTRL DE_O
 &kp DE_Z        &kp DE_X       &kp DE_C         &kp DE_D       &kp DE_V        &kp DE_K     &kp DE_H       &kp DE_COMMA     &kp DE_DOT     &kp DE_SLASH
                                                 &lt 3 TAB      &lt 1 DE_SPACE  &lt 2 ENTER  &kp BACKSPACE
@@ -78,7 +78,7 @@
 
         symbols {
             bindings = <
-&kp DE_A_UMLAUT     &kp DE_O_UMLAUT   &kp DE_U_UMLAUT      &kp DE_LEFT_PARENTHESIS  &none                 &bootloader   &kp DE_RIGHT_PARENTHESIS  &none                  &none                &none
+&kp DE_A_UMLAUT     &kp DE_O_UMLAUT   &kp DE_U_UMLAUT      &kp DE_LEFT_PARENTHESIS  &none                 &bootloader   &kp DE_RIGHT_PARENTHESIS  &kp DE_SZ              &none                &none
 &kp DE_EXCLAMATION  &kp DE_AT_SIGN    &mt LSHFT DE_HASH    &kp PERCENT              &kp DE_AMPERSAND      &kp DE_CARET  &kp DE_DOLLAR             &mt LSHFT DE_ASTERISK  &kp DE_MINUS         &kp DE_PLUS
 &kp DE_BACKSLASH    &kp DE_LESS_THAN  &kp DE_LEFT_BRACKET  &kp DE_LEFT_BRACE        &kp DE_GRAVE          &kp DE_EURO   &kp DE_RIGHT_BRACE        &kp DE_RIGHT_BRACKET   &kp DE_GREATER_THAN  &kp DE_EQUAL
                                                            &kp DE_TILDE             &kp DE_DOUBLE_QUOTES  &none         &none
