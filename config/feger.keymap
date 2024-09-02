@@ -21,7 +21,7 @@
 
         esc_left {
             bindings = <&kp ESC>;
-            key-positions = <4 3>;
+            key-positions = <14 13>;
         };
 
         gaming {
@@ -41,7 +41,7 @@
 
         esc_right {
             bindings = <&kp ESCAPE>;
-            key-positions = <6 5>;
+            key-positions = <15 16>;
         };
     };
 
