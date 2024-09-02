@@ -19,9 +19,9 @@
     combos {
         compatible = "zmk,combos";
 
-        esc {
+        esc_left {
             bindings = <&kp ESC>;
-            key-positions = <23 26>;
+            key-positions = <4 3>;
         };
 
         gaming {
@@ -37,6 +37,11 @@
         base {
             bindings = <&to 0>;
             key-positions = <5 25>;
+        };
+
+        esc_right {
+            bindings = <&kp ESCAPE>;
+            key-positions = <6 5>;
         };
     };
 
@@ -81,19 +86,19 @@
 
         Gaming {
             bindings = <
-&kp DE_Q  &kp DE_X  &kp DE_E  &kp DE_R  &kp DE_T      &kp DE_Z  &kp DE_U  &kp DE_I      &kp DE_O    &kp DE_P
-&kp DE_A  &kp DE_W  &kp DE_D  &kp DE_F  &kp DE_G      &kp DE_H  &kp DE_J  &kp DE_K      &kp DE_L    &none
-&kp DE_Y  &kp DE_S  &kp DE_C  &kp DE_V  &kp DE_B      &kp DE_N  &kp DE_M  &kp DE_COMMA  &kp DE_DOT  &kp DE_MINUS
-                              &mo 5     &kp DE_SPACE  &kp RET   &none
+&kp TAB    &kp Q  &kp X  &kp E  &kp R         &kp T    &kp Z  &kp U  &kp I      &kp O
+&kp LSHFT  &kp A  &kp W  &kp D  &kp F         &kp G    &kp H  &kp J  &kp K      &kp L
+&kp LCTRL  &kp Y  &kp S  &kp C  &kp V         &kp B    &kp N  &kp M  &kp COMMA  &kp DOT
+                         &mo 5  &kp DE_SPACE  &kp RET  &none
             >;
         };
 
         Gaming_Mod {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+                     &none  &none  &none  &none
             >;
         };
 
