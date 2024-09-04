@@ -59,10 +59,10 @@
 
         nav {
             bindings = <
-&kp DE_N4  &kp DE_N5  &kp DE_N6  &none       &none  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none           &kp DE_LEFT_BRACE  &kp LS(DE_RIGHT_BRACE)
-&kp DE_N1  &kp DE_N2  &kp DE_N3  &kp DE_N0   &none  &none           &kp LGUI         &kp LEFT_SHIFT  &kp LEFT_ALT       &kp LCTRL
-&kp DE_N7  &kp DE_N8  &kp DE_N9  &none       &none  &kp UP_ARROW    &kp LEFT_ARROW   &none           &kp DE_LESS_THAN   &kp DE_GREATER_THAN
-                                 &bt BT_CLR  &none  &none           &out OUT_TOG
+&kp DE_N4  &kp DE_N5  &kp DE_N6  &none           &none  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none           &kp DE_LEFT_BRACE  &kp LS(DE_RIGHT_BRACE)
+&kp DE_N1  &kp DE_N2  &kp DE_N3  &mt LGUI DE_N0  &none  &none           &kp LGUI         &kp LEFT_SHIFT  &kp LEFT_ALT       &kp LCTRL
+&kp DE_N7  &kp DE_N8  &kp DE_N9  &none           &none  &kp UP_ARROW    &kp LEFT_ARROW   &none           &kp DE_LESS_THAN   &kp DE_GREATER_THAN
+                                 &bt BT_CLR      &none  &none           &out OUT_TOG
             >;
         };
 
