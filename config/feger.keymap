@@ -47,12 +47,13 @@
 
     keymap {
         compatible = "zmk,keymap";
-base {
+
+        base {
             bindings = <
 &kp Q        &kp W       &kp F         &kp P       &kp B        &kp J        &kp L          &kp U         &kp Y       &kp SEMICOLON
 &mt LCTRL A  &mt LALT R  &mt LSHIFT S  &mt LGUI T  &kp G        &kp M        &mt LGUI N     &mt RSHIFT E  &mt LALT I  &mt LCTRL O
 &kp Z        &kp X       &kp C         &kp D       &kp V        &kp K        &kp H          &kp COMMA     &kp DOT     &kp SLASH
-                                       &lt 7 TAB   &lt 1 SPACE  &lt 2 ENTER  &kp BACKSPACE
+                                       &lt 3 TAB   &lt 1 SPACE  &lt 2 ENTER  &kp BACKSPACE
             >;
         };
 
@@ -73,7 +74,6 @@ base {
                                            &kp SINGLE_QUOTE      &kp SEMICOLON  &none        &none
             >;
         };
-
 
         function_keys {
             bindings = <
