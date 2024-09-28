@@ -47,33 +47,33 @@
 
     keymap {
         compatible = "zmk,keymap";
-
-        base {
+base {
             bindings = <
-&kp DE_Q        &kp DE_W       &kp DE_F         &kp DE_P       &kp DE_B        &kp DE_J     &kp DE_L       &kp DE_U         &kp DE_Y       &kp DE_QUESTION
-&mt LCTRL DE_A  &mt LALT DE_R  &mt LSHIFT DE_S  &mt LGUI DE_T  &kp DE_G        &kp DE_M     &mt LGUI DE_N  &mt RSHIFT DE_E  &mt LALT DE_I  &mt LCTRL DE_O
-&kp DE_Z        &kp DE_X       &kp DE_C         &kp DE_D       &kp DE_V        &kp DE_K     &kp DE_H       &kp DE_COMMA     &kp DE_DOT     &kp DE_SLASH
-                                                &lt 3 TAB      &lt 1 DE_SPACE  &lt 2 ENTER  &kp BACKSPACE
+&kp Q        &kp W       &kp F         &kp P       &kp B        &kp J        &kp L          &kp U         &kp Y       &kp SEMICOLON
+&mt LCTRL A  &mt LALT R  &mt LSHIFT S  &mt LGUI T  &kp G        &kp M        &mt LGUI N     &mt RSHIFT E  &mt LALT I  &mt LCTRL O
+&kp Z        &kp X       &kp C         &kp D       &kp V        &kp K        &kp H          &kp COMMA     &kp DOT     &kp SLASH
+                                       &lt 7 TAB   &lt 1 SPACE  &lt 2 ENTER  &kp BACKSPACE
             >;
         };
 
         nav {
             bindings = <
-&kp DE_N4  &kp DE_N5  &kp DE_N6  &none           &none  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none           &kp DE_LEFT_BRACE  &kp LS(DE_RIGHT_BRACE)
-&kp DE_N1  &kp DE_N2  &kp DE_N3  &mt LGUI DE_N0  &none  &none           &kp LGUI         &kp LEFT_SHIFT  &kp LEFT_ALT       &kp LCTRL
-&kp DE_N7  &kp DE_N8  &kp DE_N9  &none           &none  &kp UP_ARROW    &kp LEFT_ARROW   &none           &kp DE_LESS_THAN   &kp DE_GREATER_THAN
-                                 &bt BT_CLR      &none  &none           &out OUT_TOG
+&kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none         &none  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none           &kp LEFT_BRACE  &kp RIGHT_BRACE
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &none  &none           &kp LGUI         &kp LEFT_SHIFT  &kp LEFT_ALT    &kp LCTRL
+&kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none         &none  &kp UP_ARROW    &kp LEFT_ARROW   &none           &kp LESS_THAN   &kp GREATER_THAN
+                                          &bt BT_CLR    &none  &none           &out OUT_TOG
             >;
         };
 
         symbols {
             bindings = <
-&kp DE_A_UMLAUT     &kp DE_O_UMLAUT   &kp DE_U_UMLAUT      &kp DE_LEFT_PARENTHESIS  &none                 &bootloader   &kp DE_RIGHT_PARENTHESIS  &kp DE_SZ              &none                &none
-&kp DE_EXCLAMATION  &kp DE_AT_SIGN    &mt LSHFT DE_HASH    &kp PERCENT              &kp DE_AMPERSAND      &kp DE_CARET  &kp DE_DOLLAR             &mt LSHFT DE_ASTERISK  &kp DE_MINUS         &kp DE_PLUS
-&kp DE_BACKSLASH    &kp DE_LESS_THAN  &kp DE_LEFT_BRACKET  &kp DE_LEFT_BRACE        &kp DE_GRAVE          &kp DE_EURO   &kp DE_RIGHT_BRACE        &kp DE_RIGHT_BRACKET   &kp DE_GREATER_THAN  &kp DE_EQUAL
-                                                           &kp DE_TILDE             &kp DE_DOUBLE_QUOTES  &none         &none
+&none            &none   &none             &kp LEFT_PARENTHESIS  &none          &bootloader  &kp RIGHT_PARENTHESIS  &none              &none      &none
+&kp EXCLAMATION  &kp AT  &mt LSHFT HASH    &kp PERCENT           &kp AMPERSAND  &kp CARET    &kp DOLLAR             &mt LSHFT STAR     &kp MINUS  &kp PLUS
+&kp BACKSLASH    &none   &kp LEFT_BRACKET  &kp LEFT_BRACE        &kp GRAVE      &kp TILDE    &kp RIGHT_BRACE        &kp RIGHT_BRACKET  &none      &kp EQUAL
+                                           &kp SINGLE_QUOTE      &kp SEMICOLON  &none        &none
             >;
         };
+
 
         function_keys {
             bindings = <
