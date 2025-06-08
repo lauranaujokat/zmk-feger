@@ -12,7 +12,7 @@
 
 &mt {
     flavor = "tap-preferred";
-    tapping_term_ms = <200>;
+    tapping-term-ms = <100>;
 };
 
 / {
@@ -82,10 +82,10 @@
 
         function_keys {
             bindings = <
-&kp F4  &kp F5  &kp F6  &none    &bootloader  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&kp F1  &kp F2  &kp F3  &kp F10  &none        &none         &bt BT_CLR    &bt BT_NXT    &out OUT_BLE  &out OUT_USB
-&kp F7  &kp F8  &kp F9  &none    &none        &none         &none         &none         &none         &none
-                        &kp F11  &kp F12      &none         &none
+&kp F4  &kp F5  &kp F6  &none    &bootloader  &bt BT_SEL 0       &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&kp F1  &kp F2  &kp F3  &kp F10  &none        &none              &bt BT_CLR       &bt BT_NXT    &out OUT_BLE  &out OUT_USB
+&kp F7  &kp F8  &kp F9  &none    &none        &none              &none            &none         &none         &none
+                        &kp F11  &kp F12      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
             >;
         };
 
